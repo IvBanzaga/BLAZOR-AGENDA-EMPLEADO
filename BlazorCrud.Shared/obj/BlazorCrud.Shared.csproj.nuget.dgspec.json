@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {}
+    "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
+    "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
         "projectName": "BlazorCrud.Shared",
-        "projectPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
-        "packagesPath": "C:\\Users\\Iván Bazaga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Iván Bazaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

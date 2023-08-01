@@ -3935,23 +3935,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Iván Bazaga\\.nuget\\packages\\": {},
+    "C:\\Users\\Ivan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Server\\BlazorCrud.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Server\\BlazorCrud.Server.csproj",
       "projectName": "BlazorCrud.Server",
-      "projectPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Server\\BlazorCrud.Server.csproj",
-      "packagesPath": "C:\\Users\\Iván Bazaga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Server\\obj\\",
+      "projectPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Server\\BlazorCrud.Server.csproj",
+      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Iván Bazaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3960,7 +3960,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -3968,8 +3967,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
-              "projectPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj"
+            "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj"
             }
           }
         }

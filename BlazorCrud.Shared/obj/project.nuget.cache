@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0ZR4vA2I3FlvZFVQxG4M3XYwLasuffkxHB1Yc+6fHemLxrqmUDSNRarx6F+uLAbUjmN979h9cDaA50waaWOVw==",
+  "dgSpecHash": "0L/224K2OHVKJ88GyW1ROV/5/nIVcMHVYDoX4fzoMd45jY1+c5JaDRJyiWbC9oTdCY+9ugxVr13vIt2LxEcw1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\CrudBlazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

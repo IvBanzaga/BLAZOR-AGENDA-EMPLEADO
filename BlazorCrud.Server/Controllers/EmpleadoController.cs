@@ -34,13 +34,9 @@ namespace BlazorCrud.Server.Controllers
                     {
                         IdEmpleado = item.IdEmpleado,
                         Nombre = item.Nombre,
-                        Apellido1 = item.Apellido1,
-                        Apellido2 = item.Apellido2,
-                        Telefono = item.Telefono,
-                        Email = item.Email,
+                        IdDepartamento = item.IdDepartamento,
                         Sueldo = item.Sueldo,
                         FechaContrato = item.FechaContrato,
-                        IdDepartamento = item.IdDepartamento,
                         Departamento = new DepartamentoDTO
                         {
                             IdDepartamento = item.IdDepartamentoNavigation.IdDepartamento,
@@ -76,15 +72,11 @@ namespace BlazorCrud.Server.Controllers
 
                 if (dbEmpleado != null)
                 {
-                    EmpleadoDTO.IdEmpleado = EmpleadoDTO.IdEmpleado;
-                    EmpleadoDTO.Nombre = EmpleadoDTO.Nombre;
-                    EmpleadoDTO.Apellido1 = EmpleadoDTO.Apellido1;
-                    EmpleadoDTO.Apellido2 = EmpleadoDTO.Apellido2;
-                    EmpleadoDTO.Telefono = EmpleadoDTO.Telefono;
-                    EmpleadoDTO.Email = EmpleadoDTO.Email;
-                    EmpleadoDTO.Sueldo = EmpleadoDTO.Sueldo;
-                    EmpleadoDTO.FechaContrato = EmpleadoDTO.FechaContrato;
-                    EmpleadoDTO.IdDepartamento = EmpleadoDTO.IdDepartamento;
+                    EmpleadoDTO.IdEmpleado = dbEmpleado.IdEmpleado;
+                    EmpleadoDTO.Nombre = dbEmpleado.Nombre;
+                    EmpleadoDTO.IdDepartamento = dbEmpleado.IdDepartamento;
+                    EmpleadoDTO.Sueldo = dbEmpleado.Sueldo;
+                    EmpleadoDTO.FechaContrato = dbEmpleado.FechaContrato;
 
 
                     responseApi.EsCorrecto = true;
@@ -118,13 +110,9 @@ namespace BlazorCrud.Server.Controllers
                 var dbEmpleado = new Empleado
                 {
                     Nombre = empleado.Nombre,
-                    Apellido1 = empleado.Apellido1,
-                    Apellido2 = empleado.Apellido2,
-                    Telefono = empleado.Telefono,
-                    Email = empleado.Email,
+                    IdDepartamento = empleado.IdDepartamento,
                     Sueldo = empleado.Sueldo,
                     FechaContrato = empleado.FechaContrato,
-                    IdDepartamento = empleado.IdDepartamento
                 };
 
                 _dbContext.Empleados.Add(dbEmpleado);
@@ -168,13 +156,9 @@ namespace BlazorCrud.Server.Controllers
                 {
 
                     dbEmpleado.Nombre = empleado.Nombre;
-                    dbEmpleado.Apellido1 = empleado.Apellido1;
-                    dbEmpleado.Apellido2 = empleado.Apellido2;
-                    dbEmpleado.Telefono = empleado.Telefono;
-                    dbEmpleado.Email = empleado.Email;
+                    dbEmpleado.IdDepartamento = empleado.IdDepartamento;
                     dbEmpleado.Sueldo = empleado.Sueldo;
                     dbEmpleado.FechaContrato = empleado.FechaContrato;
-                    dbEmpleado.IdDepartamento = empleado.IdDepartamento;
 
 
                     _dbContext.Empleados.Update(dbEmpleado);

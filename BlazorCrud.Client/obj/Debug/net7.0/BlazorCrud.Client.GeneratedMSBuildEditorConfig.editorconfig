@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorCrud.Client
 build_property.RootNamespace = BlazorCrud.Client
-build_property.ProjectDir = C:\Users\Iván Bazaga\source\repos\IvBanzaga\CrudBlazor\BlazorCrud.Client\
+build_property.ProjectDir = C:\Users\Ivan\source\repos\Blazor\BlazorCrud.Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Iván Bazaga\source\repos\IvBanzaga\CrudBlazor\BlazorCrud.Client
+build_property.MSBuildProjectDirectory = C:\Users\Ivan\source\repos\Blazor\BlazorCrud.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/App.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Pages/Counter.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Pages/Empleado.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Pages/Empleado.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Pages/Empleados.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Pages/Empleados.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Pages/FetchData.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Pages/Index.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Shared/SurveyPrompt.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/_Imports.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Shared/MainLayout.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mfiejmohyr
 
-[C:/Users/Iván Bazaga/source/repos/IvBanzaga/CrudBlazor/BlazorCrud.Client/Shared/NavMenu.razor]
+[C:/Users/Ivan/source/repos/Blazor/BlazorCrud.Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hu89xo3lx1

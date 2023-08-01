@@ -21,11 +21,12 @@ public partial class DbcrudBlazorContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Departamento>(entity =>
         {
-            entity.HasKey(e => e.IdDepartamento).HasName("PK__Departam__787A433D50279E95");
+            entity.HasKey(e => e.IdDepartamento).HasName("PK__Departam__787A433D7A2FAEEF");
 
             entity.ToTable("Departamento");
 
@@ -36,7 +37,7 @@ public partial class DbcrudBlazorContext : DbContext
 
         modelBuilder.Entity<Empleado>(entity =>
         {
-            entity.HasKey(e => e.IdEmpleado).HasName("PK__Empleado__CE6D8B9E708487BA");
+            entity.HasKey(e => e.IdEmpleado).HasName("PK__Empleado__CE6D8B9E9D8061D2");
 
             entity.ToTable("Empleado");
 
