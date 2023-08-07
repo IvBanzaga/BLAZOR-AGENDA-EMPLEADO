@@ -17,11 +17,11 @@ namespace BlazorCrud.Shared
         [Required(ErrorMessage = "El campo {0} es requerido")]
         public string Apellido1 { get; set; } = null!;
 
-        public string? Apellido2 { get; set; }
+        public string Apellido2 { get; set; } = null!;
 
-        public int? Telefono { get; set; }
+        public int Telefono { get; set; }
 
-        public string? Email { get; set; }
+        public string Email { get; set; } = null!;
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
         public int Sueldo { get; set; }
