@@ -11,11 +11,11 @@ public partial class Empleado
 
     public string Apellido1 { get; set; } = null!;
 
-    public string? Apellido2 { get; set; }
+    public string Apellido2 { get; set; } = null !;
 
-    public int? Telefono { get; set; }
+    public int Telefono { get; set; }
 
-    public string? Email { get; set; }
+    public string Email { get; set; } = null!;
 
     public int Sueldo { get; set; }
 

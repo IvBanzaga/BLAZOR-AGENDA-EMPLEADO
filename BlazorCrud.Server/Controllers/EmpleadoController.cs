@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using BlazorCrud.Server.Models;
 using BlazorCrud.Shared;
 using Microsoft.EntityFrameworkCore;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BlazorCrud.Server.Controllers
 {
@@ -34,6 +35,10 @@ namespace BlazorCrud.Server.Controllers
                     {
                         IdEmpleado = item.IdEmpleado,
                         Nombre = item.Nombre,
+                        Apellido1 = item.Apellido1,
+                        Apellido2 = item.Apellido2,
+                        Email = item.Email,
+                        Telefono = item.Telefono,
                         IdDepartamento = item.IdDepartamento,
                         Sueldo = item.Sueldo,
                         FechaContrato = item.FechaContrato,
@@ -74,6 +79,10 @@ namespace BlazorCrud.Server.Controllers
                 {
                     EmpleadoDTO.IdEmpleado = dbEmpleado.IdEmpleado;
                     EmpleadoDTO.Nombre = dbEmpleado.Nombre;
+                    EmpleadoDTO.Apellido1 = dbEmpleado.Apellido1;
+                    EmpleadoDTO.Apellido2 = dbEmpleado.Apellido2;
+                    EmpleadoDTO.Telefono = dbEmpleado.Telefono;
+                    EmpleadoDTO.Email = dbEmpleado.Email;
                     EmpleadoDTO.IdDepartamento = dbEmpleado.IdDepartamento;
                     EmpleadoDTO.Sueldo = dbEmpleado.Sueldo;
                     EmpleadoDTO.FechaContrato = dbEmpleado.FechaContrato;
@@ -109,7 +118,12 @@ namespace BlazorCrud.Server.Controllers
             {
                 var dbEmpleado = new Empleado
                 {
+                    IdEmpleado = empleado.IdEmpleado,
                     Nombre = empleado.Nombre,
+                    Apellido1 = empleado.Apellido1,
+                    Apellido2 = empleado.Apellido2,
+                    Email = empleado.Email,
+                    Telefono = empleado.Telefono,
                     IdDepartamento = empleado.IdDepartamento,
                     Sueldo = empleado.Sueldo,
                     FechaContrato = empleado.FechaContrato,
@@ -154,6 +168,7 @@ namespace BlazorCrud.Server.Controllers
 
                 if (dbEmpleado != null)
                 {
+<<<<<<< HEAD
 
                     //dbEmpleado.Nombre = empleado.Nombre;
                     //dbEmpleado.IdDepartamento = empleado.IdDepartamento;
@@ -165,6 +180,16 @@ namespace BlazorCrud.Server.Controllers
                     dbEmpleado.Apellido2 = empleado.Apellido2;
                     dbEmpleado.Telefono = empleado.Telefono;
                     dbEmpleado.Email = empleado.Email;
+=======
+                    dbEmpleado.IdEmpleado = id;
+                    dbEmpleado.Nombre = empleado.Nombre;
+
+                    dbEmpleado.Apellido1 = empleado.Apellido1;
+                    dbEmpleado.Apellido2 = empleado.Apellido2;
+                    dbEmpleado.Email = empleado.Email;
+                    dbEmpleado.Telefono = empleado.Telefono;
+                    dbEmpleado.IdDepartamento = empleado.IdDepartamento;
+>>>>>>> f062ef81211041fbf6e43f00a9b581e7c4e81c34
                     dbEmpleado.Sueldo = empleado.Sueldo;
                     dbEmpleado.FechaContrato = empleado.FechaContrato;
                     dbEmpleado.IdDepartamento = empleado.IdDepartamento;
