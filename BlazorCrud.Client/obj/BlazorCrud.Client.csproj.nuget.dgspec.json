@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj": {}
+    "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj": {
+    "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj",
         "projectName": "BlazorCrud.Client",
-        "projectPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj",
-        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Client\\obj\\",
+        "projectPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Client\\BlazorCrud.Client.csproj",
+        "packagesPath": "C:\\Users\\Iván Bazaga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Iván Bazaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
-                "projectPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj"
+              "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
+                "projectPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj"
               }
             }
           }
@@ -93,20 +94,20 @@
         }
       }
     },
-    "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
+    "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
         "projectName": "BlazorCrud.Shared",
-        "projectPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
-        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan\\source\\repos\\Blazor\\BlazorCrud.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Shared\\BlazorCrud.Shared.csproj",
+        "packagesPath": "C:\\Users\\Iván Bazaga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iván Bazaga\\source\\repos\\IvBanzaga\\Blazor\\BlazorCrud.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Iván Bazaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,6 +116,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

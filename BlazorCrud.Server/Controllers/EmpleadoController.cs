@@ -155,10 +155,19 @@ namespace BlazorCrud.Server.Controllers
                 if (dbEmpleado != null)
                 {
 
+                    //dbEmpleado.Nombre = empleado.Nombre;
+                    //dbEmpleado.IdDepartamento = empleado.IdDepartamento;
+                    //dbEmpleado.Sueldo = empleado.Sueldo;
+                    //dbEmpleado.FechaContrato = empleado.FechaContrato;
+
                     dbEmpleado.Nombre = empleado.Nombre;
-                    dbEmpleado.IdDepartamento = empleado.IdDepartamento;
+                    dbEmpleado.Apellido1 = empleado.Apellido1;
+                    dbEmpleado.Apellido2 = empleado.Apellido2;
+                    dbEmpleado.Telefono = empleado.Telefono;
+                    dbEmpleado.Email = empleado.Email;
                     dbEmpleado.Sueldo = empleado.Sueldo;
                     dbEmpleado.FechaContrato = empleado.FechaContrato;
+                    dbEmpleado.IdDepartamento = empleado.IdDepartamento;
 
 
                     _dbContext.Empleados.Update(dbEmpleado);

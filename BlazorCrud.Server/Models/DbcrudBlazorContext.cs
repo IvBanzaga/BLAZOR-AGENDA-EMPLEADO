@@ -50,6 +50,8 @@ public partial class DbcrudBlazorContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+   
+      
             entity.Property(e => e.FechaContrato).HasColumnType("date");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(50)

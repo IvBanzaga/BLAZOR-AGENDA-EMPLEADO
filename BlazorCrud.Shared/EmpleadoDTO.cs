@@ -23,13 +23,15 @@ namespace BlazorCrud.Shared
 
         public string? Email { get; set; }
 
-        [Required(ErrorMessage = "El campo {0} es requerido")]
-        public int Sueldo { get; set; }
-
         public DateTime FechaContrato { get; set; }
+
         [Required]
-        [Range(1, int.MaxValue, ErrorMessage = "El campo {0} es requerido")]
+        [Range(1, int.MaxValue, ErrorMessage = "El campo {0} es requerido.")]
         public int IdDepartamento { get; set; }
+
+        [Required]
+        [Range(1, int.MaxValue, ErrorMessage = "El campo {0} es requerido.")]
+        public int Sueldo { get; set; }
 
         public DepartamentoDTO? Departamento { get; set; }
     }

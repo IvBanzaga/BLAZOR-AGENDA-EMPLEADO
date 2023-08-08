@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorCrud.Shared
-build_property.ProjectDir = C:\Users\Ivan\source\repos\Blazor\BlazorCrud.Shared\
+build_property.ProjectDir = C:\Users\Iván Bazaga\source\repos\IvBanzaga\Blazor\BlazorCrud.Shared\
